@@ -62,7 +62,7 @@ Procedure:
 	Note1: when reading back in the factor key changes, but the factor names are in the correct positions
 	Note2: converting XXX-mean()-XYZ and XXX-std()-XYZ to XXX_mean_XYZ and XXX_std_XYZ respectively.  This was done because the "-" and "()" failed to carry back into R as column names using read.table for the final tidy dataset
 
-9 create a second, independent tidy data set with the average of each variable for each activity and each subject.[run_analysis.R lines 305-338]
+9. create a second, independent tidy data set with the average of each variable for each activity and each subject.[run_analysis.R lines 305-338]
 	Use the aggregate function to average each feature for each activity and each subject
 	Output tidy aggregated data as tidy_data.txt to the working directory
 	tidy_data.txt is in a "wide" tidy data form
